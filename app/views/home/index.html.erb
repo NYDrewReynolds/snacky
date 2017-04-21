@@ -1,5 +1,6 @@
 <nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
   <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -30,8 +31,10 @@
   </div><!-- /.container -->
 </nav>
 <div class="main">
-  <%#= video_tag("time", id: 'video_background', autoplay: true, loop: loop ) %>
+  <%= video_tag("time", id: 'video_background', autoplay: true, loop: loop ) %>
+
   <div class="cover red" data-color="red"></div>
+
   <div class="container">
     <h1 class="logo cursive visible-xs">
       Snacky
@@ -39,6 +42,7 @@
     <h1 class="logo cursive hidden-xs">
       Snacky
     </h1>
+    <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
 
     <div class="content">
       <h4 class="motto">Bite-Sized, Actionable Insights Into Your Google Analytics</h4>
